@@ -1,0 +1,620 @@
+{
+  "version": 2,
+  "currentQuarter": {
+    "label": "Q2 2026",
+    "endDate": "2026-06-30"
+  },
+  "cards": [
+    {
+      "id": "chase-freedom-flex",
+      "name": "Chase Freedom Flex",
+      "issuer": "Chase",
+      "brandKey": "chase",
+      "brandColor": "#117ACA",
+      "type": "rotating",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": true,
+      "description": "5% on rotating quarterly categories ($1,500/qtr cap) + always-on bonuses.",
+      "permanent": [
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "drugstores",
+          "rate": 3
+        },
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Booked via Chase Travel"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "currentQuarter": {
+        "quarter": "Q1 2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-03-31",
+        "activationDeadline": "2026-03-14",
+        "activationUrl": "https://www.chase.com/personal/credit-cards/freedom-calendar",
+        "cap": 1500,
+        "capPeriod": "quarter",
+        "categories": [
+          {
+            "category": "groceries",
+            "rate": 5
+          },
+          {
+            "category": "fitness",
+            "rate": 5,
+            "note": "Fitness clubs & gym memberships"
+          }
+        ]
+      },
+      "nextQuarter": null,
+      "nextQuarterExpected": "Q2 2026 expected mid-Mar 2026",
+      "historical": [
+        {
+          "quarter": "Q4 2025",
+          "startDate": "2025-10-01",
+          "endDate": "2025-12-31",
+          "cap": 1500,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "amazon",
+              "rate": 5
+            },
+            {
+              "category": "dept_stores",
+              "rate": 5,
+              "note": "Target & select dept stores"
+            }
+          ]
+        },
+        {
+          "quarter": "Q3 2025",
+          "startDate": "2025-07-01",
+          "endDate": "2025-09-30",
+          "cap": 1500,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "gas",
+              "rate": 5
+            },
+            {
+              "category": "home_improvement",
+              "rate": 5
+            }
+          ]
+        }
+      ],
+      "applyUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "discover-it-cash-back",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "brandKey": "discover",
+      "brandColor": "#FF6000",
+      "type": "rotating",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": true,
+      "description": "5% on rotating quarterly categories ($1,500/qtr cap). 1% on everything else.",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "currentQuarter": {
+        "quarter": "Q1 2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-03-31",
+        "activationDeadline": "2026-03-14",
+        "activationUrl": "https://www.discover.com/credit-cards/cash-back/5-percent-calendar.html",
+        "cap": 1500,
+        "capPeriod": "quarter",
+        "categories": [
+          {
+            "category": "dining",
+            "rate": 5
+          },
+          {
+            "category": "drugstores",
+            "rate": 5
+          }
+        ]
+      },
+      "nextQuarter": null,
+      "nextQuarterExpected": "Q2 2026 expected mid-Mar 2026",
+      "historical": [
+        {
+          "quarter": "Q4 2025",
+          "startDate": "2025-10-01",
+          "endDate": "2025-12-31",
+          "cap": 1500,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "amazon",
+              "rate": 5
+            },
+            {
+              "category": "home_improvement",
+              "rate": 5
+            }
+          ]
+        }
+      ],
+      "applyUrl": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "us-bank-cash-plus",
+      "name": "U.S. Bank Cash+ Visa Signature",
+      "issuer": "U.S. Bank",
+      "brandKey": "usBank",
+      "brandColor": "#0C2340",
+      "type": "user-selected",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "userSelectable": {
+        "count": 2,
+        "kind": "category",
+        "rate": 5
+      },
+      "description": "5% on 2 categories you pick each quarter ($2,000 combined cap), 2% on 1 everyday category.",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "currentQuarter": {
+        "quarter": "Q1 2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-03-31",
+        "cap": 2000,
+        "capPeriod": "quarter",
+        "categories": [
+          {
+            "category": "user_choice",
+            "rate": 5,
+            "note": "Pick 2 of: TV/internet, streaming, cell, fast food, dining, gas, dept stores, gyms, home utilities, ground transport, sporting goods, movie theaters, electronics, furniture, select clothing"
+          },
+          {
+            "category": "user_choice",
+            "rate": 2,
+            "note": "Pick 1 of: gas, groceries, dining"
+          }
+        ]
+      },
+      "nextQuarter": null,
+      "nextQuarterExpected": "Categories are user-picked each quarter",
+      "historical": [],
+      "applyUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "citi-custom-cash",
+      "name": "Citi Custom Cash",
+      "issuer": "Citi",
+      "brandKey": "citi",
+      "brandColor": "#002D72",
+      "type": "auto-rotating",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "5% auto on your top eligible category each billing cycle (up to $500/cycle), 1% on everything else.",
+      "permanent": [
+        {
+          "category": "groceries",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "gas",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "amazon",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "travel",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "streaming",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "fitness",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "drugstores",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "bofa-customized-cash",
+      "name": "Bank of America Customized Cash Rewards",
+      "issuer": "Bank of America",
+      "brandKey": "bofa",
+      "brandColor": "#E31837",
+      "type": "user-selected",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "userSelectable": {
+        "count": 1,
+        "kind": "category",
+        "rate": 3
+      },
+      "description": "3% on category of your choice, 2% at grocery & wholesale clubs (combined $2,500/qtr cap), 1% on everything else.",
+      "permanent": [
+        {
+          "category": "user_choice",
+          "rate": 3,
+          "cap": 2500,
+          "capPeriod": "quarter",
+          "note": "Pick 1: gas, online shopping, dining, travel, drugstores, or home improvement"
+        },
+        {
+          "category": "groceries",
+          "rate": 2,
+          "cap": 2500,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "wholesale",
+          "rate": 2,
+          "cap": 2500,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.bankofamerica.com/credit-cards/products/cash-rewards-credit-card/",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "citi-double-cash",
+      "name": "Citi Double Cash",
+      "issuer": "Citi",
+      "brandKey": "citi",
+      "brandColor": "#002D72",
+      "type": "flat",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "2% on everything (1% purchase + 1% on pay).",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 2
+        }
+      ],
+      "applyUrl": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Wells Fargo Active Cash",
+      "issuer": "Wells Fargo",
+      "brandKey": "wellsFargo",
+      "brandColor": "#D71E28",
+      "type": "flat",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "Unlimited 2% cash rewards on purchases.",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 2
+        }
+      ],
+      "applyUrl": "https://creditcards.wellsfargo.com/active-cash-card",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "name": "Chase Freedom Unlimited",
+      "issuer": "Chase",
+      "brandKey": "chase",
+      "brandColor": "#117ACA",
+      "type": "fixed-category",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "1.5% base + 3% dining/drugstore + 5% Chase Travel.",
+      "permanent": [
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Booked via Chase Travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "drugstores",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1.5
+        }
+      ],
+      "applyUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "capital-one-venture",
+      "name": "Capital One Venture Rewards",
+      "issuer": "Capital One",
+      "brandKey": "capitalOne",
+      "brandColor": "#D22E1E",
+      "type": "flat",
+      "annualFee": 95,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "2x miles on every purchase.",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 2
+        }
+      ],
+      "applyUrl": "https://www.capitalone.com/credit-cards/venture/",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "amex-blue-cash-everyday",
+      "name": "Amex Blue Cash Everyday",
+      "issuer": "American Express",
+      "brandKey": "amex",
+      "brandColor": "#006FCF",
+      "type": "fixed-category",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "3% groceries, 3% U.S. online retail, 3% gas (up to $6K/yr each, then 1%).",
+      "permanent": [
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "online_shopping",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "gas",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Amex Blue Cash Preferred",
+      "issuer": "American Express",
+      "brandKey": "amex",
+      "brandColor": "#006FCF",
+      "type": "fixed-category",
+      "annualFee": 95,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "6% groceries (up to $6K/yr), 6% streaming, 3% transit & gas.",
+      "permanent": [
+        {
+          "category": "groceries",
+          "rate": 6,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "streaming",
+          "rate": 6
+        },
+        {
+          "category": "transit",
+          "rate": 3
+        },
+        {
+          "category": "gas",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "discover-it-chrome",
+      "name": "Discover it Chrome",
+      "issuer": "Discover",
+      "brandKey": "discover",
+      "brandColor": "#FF6000",
+      "type": "fixed-category",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "description": "2% on gas + restaurants (combined $1K/qtr cap), 1% on everything else.",
+      "permanent": [
+        {
+          "category": "gas",
+          "rate": 2,
+          "cap": 1000,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "dining",
+          "rate": 2,
+          "cap": 1000,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "huntington-voice",
+      "name": "Huntington Voice Rewards",
+      "issuer": "Huntington",
+      "brandKey": "huntington",
+      "brandColor": "#006A32",
+      "type": "user-selected",
+      "annualFee": 0,
+      "status": "open",
+      "requiresActivation": false,
+      "userSelectable": {
+        "count": 1,
+        "kind": "category",
+        "rate": 3
+      },
+      "description": "3x points on 1 chosen category ($2,000/qtr cap), 1x on everything else.",
+      "permanent": [
+        {
+          "category": "user_choice",
+          "rate": 3,
+          "cap": 2000,
+          "capPeriod": "quarter",
+          "note": "Pick 1 of: gas, groceries, dining, travel, utilities, electronics, home improvement, sporting goods"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "applyUrl": "https://www.huntington.com/Personal/credit-cards/voice",
+      "applyNetwork": "direct"
+    },
+    {
+      "id": "citi-dividend",
+      "name": "Citi Dividend Platinum Select",
+      "issuer": "Citi",
+      "brandKey": "citi",
+      "brandColor": "#002D72",
+      "type": "rotating",
+      "annualFee": 0,
+      "status": "closed",
+      "requiresActivation": true,
+      "description": "5% on rotating quarterly categories ($6,000/year cap). Closed to new applicants.",
+      "permanent": [
+        {
+          "category": "all",
+          "rate": 1
+        }
+      ],
+      "currentQuarter": {
+        "quarter": "Q2 2026",
+        "startDate": "2026-04-01",
+        "endDate": "2026-06-30",
+        "activationDeadline": "2026-06-14",
+        "activationUrl": "https://online.citi.com",
+        "cap": 6000,
+        "capPeriod": "year",
+        "categories": [
+          {
+            "category": "home_improvement",
+            "rate": 5
+          },
+          {
+            "category": "dining",
+            "rate": 5,
+            "note": "Restaurants & live entertainment"
+          }
+        ]
+      },
+      "nextQuarter": null,
+      "nextQuarterExpected": "Q3 2026 expected mid-Jun 2026",
+      "historical": [
+        {
+          "quarter": "Q1 2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-03-31",
+          "cap": 6000,
+          "capPeriod": "year",
+          "categories": [
+            {
+              "category": "groceries",
+              "rate": 5
+            },
+            {
+              "category": "fitness",
+              "rate": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
