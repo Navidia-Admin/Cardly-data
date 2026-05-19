@@ -46,30 +46,9 @@
           "cap": 1500,
           "capPeriod": "quarter",
           "categories": [
-            { "category": "groceries", "rate": 5 },
-            { "category": "fitness", "rate": 5 }
-          ]
-        },
-        {
-          "quarter": "Q4 2025",
-          "startDate": "2025-10-01",
-          "endDate": "2025-12-31",
-          "cap": 1500,
-          "capPeriod": "quarter",
-          "categories": [
-            { "category": "amazon", "rate": 5 },
-            { "category": "dept_stores", "rate": 5, "note": "Target & select dept stores" }
-          ]
-        },
-        {
-          "quarter": "Q3 2025",
-          "startDate": "2025-07-01",
-          "endDate": "2025-09-30",
-          "cap": 1500,
-          "capPeriod": "quarter",
-          "categories": [
-            { "category": "gas", "rate": 5 },
-            { "category": "home_improvement", "rate": 5 }
+            { "category": "dining", "rate": 5, "note": "Stacks with permanent 3% for 7x total" },
+            { "category": "charity", "rate": 5, "note": "American Heart Association donations" },
+            { "category": "travel", "rate": 5, "note": "Norwegian Cruise Line bookings" }
           ]
         }
       ],
@@ -112,19 +91,9 @@
           "cap": 1500,
           "capPeriod": "quarter",
           "categories": [
-            { "category": "dining", "rate": 5 },
-            { "category": "drugstores", "rate": 5 }
-          ]
-        },
-        {
-          "quarter": "Q4 2025",
-          "startDate": "2025-10-01",
-          "endDate": "2025-12-31",
-          "cap": 1500,
-          "capPeriod": "quarter",
-          "categories": [
-            { "category": "amazon", "rate": 5 },
-            { "category": "home_improvement", "rate": 5 }
+            { "category": "groceries", "rate": 5, "note": "Excludes Walmart, Target, wholesale clubs" },
+            { "category": "wholesale", "rate": 5, "note": "Costco does not accept Discover" },
+            { "category": "streaming", "rate": 5 }
           ]
         }
       ],
@@ -167,8 +136,8 @@
           "cap": 6000,
           "capPeriod": "year",
           "categories": [
-            { "category": "groceries", "rate": 5 },
-            { "category": "fitness", "rate": 5 }
+            { "category": "amazon", "rate": 5 },
+            { "category": "streaming", "rate": 5 }
           ]
         }
       ]
@@ -186,7 +155,8 @@
       "userSelectable": {
         "count": 2,
         "kind": "category",
-        "rate": 5
+        "rate": 5,
+        "selectionUrl": "https://cashplus.usbank.com/"
       },
       "description": "5% on 2 categories you pick each quarter ($2,000 combined cap), 2% on 1 everyday category.",
       "permanent": [
@@ -240,6 +210,7 @@
         { "category": "drugstores", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
         { "category": "home_improvement", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
         { "category": "fitness", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
+        { "category": "entertainment", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category — live entertainment" },
         { "category": "all", "rate": 1 }
       ],
       "applyUrl": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
@@ -258,7 +229,8 @@
       "userSelectable": {
         "count": 1,
         "kind": "category",
-        "rate": 3
+        "rate": 3,
+        "selectionUrl": "https://secure.bankofamerica.com/myaccounts/brain/redirect.go?target=cashRewardsApp"
       },
       "description": "3% on category of your choice, 2% at grocery & wholesale clubs (combined $2,500/qtr cap), 1% on everything else.",
       "permanent": [
@@ -289,7 +261,8 @@
       "userSelectable": {
         "count": 1,
         "kind": "category",
-        "rate": 3
+        "rate": 3,
+        "selectionUrl": "https://www.huntington.com/Personal/credit-cards/voice"
       },
       "description": "3% on 1 chosen category each quarter ($2,000/qtr cap), 1% on everything else.",
       "permanent": [
@@ -318,7 +291,8 @@
       "userSelectable": {
         "count": 2,
         "kind": "retailer",
-        "rate": 6
+        "rate": 6,
+        "selectionUrl": "https://cashplus.usbank.com/"
       },
       "description": "6% on 2 chosen retailers per quarter ($1,500 combined cap), 3% on 1 bonus category, 1.5% on everything else. $95 annual fee.",
       "permanent": [
@@ -411,7 +385,7 @@
       "requiresActivation": false,
       "description": "3% groceries, 3% U.S. online retail, 3% gas (up to $6K/yr each, then 1%).",
       "permanent": [
-        { "category": "groceries", "rate": 3, "cap": 6000, "capPeriod": "year" },
+        { "category": "groceries", "rate": 3, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart" },
         { "category": "online_shopping", "rate": 3, "cap": 6000, "capPeriod": "year" },
         { "category": "gas", "rate": 3, "cap": 6000, "capPeriod": "year" },
         { "category": "all", "rate": 1 }
@@ -431,7 +405,7 @@
       "requiresActivation": false,
       "description": "6% groceries (up to $6K/yr), 6% streaming, 3% transit & gas. Best grocery cashback card.",
       "permanent": [
-        { "category": "groceries", "rate": 6, "cap": 6000, "capPeriod": "year" },
+        { "category": "groceries", "rate": 6, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart" },
         { "category": "streaming", "rate": 6 },
         { "category": "transit", "rate": 3 },
         { "category": "gas", "rate": 3 },
@@ -453,7 +427,7 @@
       "description": "4x dining worldwide, 4x U.S. supermarkets (up to $50K/yr), 3x flights via Amex Travel. Membership Rewards points. $325 annual fee.",
       "permanent": [
         { "category": "dining", "rate": 4, "note": "4x Membership Rewards points worldwide" },
-        { "category": "groceries", "rate": 4, "cap": 50000, "capPeriod": "year", "note": "4x at U.S. supermarkets" },
+        { "category": "groceries", "rate": 4, "cap": 50000, "capPeriod": "year", "note": "4x at U.S. supermarkets — excludes Costco, Target, Walmart" },
         { "category": "travel", "rate": 3, "note": "3x on flights booked directly or via Amex Travel" },
         { "category": "all", "rate": 1 }
       ],
@@ -488,12 +462,13 @@
       "annualFee": 0,
       "status": "open",
       "requiresActivation": false,
-      "description": "3% dining, groceries & streaming (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
+      "description": "3% dining, groceries, streaming & entertainment (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
       "permanent": [
         { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
         { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3 },
+        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)" },
         { "category": "streaming", "rate": 3 },
+        { "category": "entertainment", "rate": 3 },
         { "category": "all", "rate": 1 }
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/savor-dining-entertainment-cashback/",
@@ -509,12 +484,13 @@
       "annualFee": 0,
       "status": "open",
       "requiresActivation": false,
-      "description": "3% dining, groceries & streaming (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
+      "description": "3% dining, groceries, streaming & entertainment (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
       "permanent": [
         { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
         { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3 },
+        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)" },
         { "category": "streaming", "rate": 3 },
+        { "category": "entertainment", "rate": 3 },
         { "category": "all", "rate": 1 }
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/savorone-mealtime-rewards/",
