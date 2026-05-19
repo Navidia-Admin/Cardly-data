@@ -601,24 +601,6 @@
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/venture/",
       "applyNetwork": "direct"
-    },
-    {
-      "id": "robinhood-gold-card",
-      "name": "Robinhood Gold Card",
-      "issuer": "Robinhood",
-      "brandKey": "default",
-      "brandColor": "#F5C542",
-      "type": "flat",
-      "annualFee": 0,
-      "status": "open",
-      "requiresActivation": false,
-      "description": "3% on all purchases (unlimited), 5% on travel booked through Robinhood portal. No annual fee, but requires Robinhood Gold subscription ($50/yr).",
-      "permanent": [
-        { "category": "travel", "rate": 5, "note": "Via Robinhood Travel portal only" },
-        { "category": "all", "rate": 3 }
-      ],
-      "applyUrl": "https://robinhood.com/creditcard",
-      "applyNetwork": "direct"
     }
   ]
 }
