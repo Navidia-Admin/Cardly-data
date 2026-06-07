@@ -527,7 +527,8 @@
       "requiresActivation": false,
       "description": "3% Daily Cash at Apple & select merchants (Uber, Nike, etc.) via Apple Pay. 2% on all other Apple Pay. 1% with physical card.",
       "permanent": [
-        { "category": "all", "rate": 2, "note": "2% Daily Cash via Apple Pay; 3% at Apple & select partners; 1% physical card" }
+        { "category": "all", "rate": 2, "note": "2% Daily Cash via Apple Pay; 1% with physical card" },
+        { "category": "other", "rate": 3, "note": "Daily Cash via Apple Pay", "merchants": ["apple", "uber", "nike"] }
       ],
       "applyUrl": "https://www.apple.com/apple-card/",
       "applyNetwork": "direct"
