@@ -348,7 +348,7 @@
         { "category": "travel", "rate": 5, "note": "5x via Chase Travel portal; 2x on other travel" },
         { "category": "dining", "rate": 3 },
         { "category": "streaming", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Online grocery purchases only (excl. Walmart, Target, Costco)" },
+        { "category": "groceries", "rate": 3, "note": "Online grocery purchases only (excl. Walmart, Target, Costco)", "excludes": ["walmart", "target", "costco"] },
         { "category": "all", "rate": 1 }
       ],
       "applyUrl": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
@@ -385,7 +385,7 @@
       "requiresActivation": false,
       "description": "3% groceries, 3% U.S. online retail, 3% gas (up to $6K/yr each, then 1%).",
       "permanent": [
-        { "category": "groceries", "rate": 3, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart" },
+        { "category": "groceries", "rate": 3, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
         { "category": "online_shopping", "rate": 3, "cap": 6000, "capPeriod": "year" },
         { "category": "gas", "rate": 3, "cap": 6000, "capPeriod": "year" },
         { "category": "all", "rate": 1 }
@@ -405,7 +405,7 @@
       "requiresActivation": false,
       "description": "6% groceries (up to $6K/yr), 6% streaming, 3% transit & gas. Best grocery cashback card.",
       "permanent": [
-        { "category": "groceries", "rate": 6, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart" },
+        { "category": "groceries", "rate": 6, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
         { "category": "streaming", "rate": 6 },
         { "category": "transit", "rate": 3 },
         { "category": "gas", "rate": 3 },
@@ -427,7 +427,7 @@
       "description": "4x dining worldwide, 4x U.S. supermarkets (up to $50K/yr), 3x flights via Amex Travel. Membership Rewards points. $325 annual fee.",
       "permanent": [
         { "category": "dining", "rate": 4, "note": "4x Membership Rewards points worldwide" },
-        { "category": "groceries", "rate": 4, "cap": 50000, "capPeriod": "year", "note": "4x at U.S. supermarkets — excludes Costco, Target, Walmart" },
+        { "category": "groceries", "rate": 4, "cap": 50000, "capPeriod": "year", "note": "4x at U.S. supermarkets — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
         { "category": "travel", "rate": 3, "note": "3x on flights booked directly or via Amex Travel" },
         { "category": "all", "rate": 1 }
       ],
@@ -466,7 +466,7 @@
       "permanent": [
         { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
         { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)" },
+        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)", "excludes": ["walmart", "target"] },
         { "category": "streaming", "rate": 3 },
         { "category": "entertainment", "rate": 3 },
         { "category": "all", "rate": 1 }
@@ -488,7 +488,7 @@
       "permanent": [
         { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
         { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)" },
+        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)", "excludes": ["walmart", "target"] },
         { "category": "streaming", "rate": 3 },
         { "category": "entertainment", "rate": 3 },
         { "category": "all", "rate": 1 }
