@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 4,
   "currentQuarter": {
-    "label": "Q2 2026",
-    "endDate": "2026-06-30"
+    "label": "Q3 2026",
+    "endDate": "2026-09-30"
   },
   "cards": [
     {
@@ -17,28 +17,82 @@
       "requiresActivation": true,
       "description": "5% on rotating quarterly categories ($1,500/qtr cap) + 3% dining & drugstores + 5% Chase Travel year-round.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "Booked via Chase Travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "drugstores", "rate": 3 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Booked via Chase Travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "drugstores",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "currentQuarter": {
-        "quarter": "Q2 2026",
-        "startDate": "2026-04-01",
-        "endDate": "2026-06-30",
-        "activationDeadline": "2026-06-14",
+        "quarter": "Q3 2026",
+        "startDate": "2026-07-01",
+        "endDate": "2026-09-30",
+        "activationDeadline": "2026-09-14",
         "activationUrl": "https://www.chase.com/personal/credit-cards/freedom/freedomfive",
         "cap": 1500,
         "capPeriod": "quarter",
         "categories": [
-          { "category": "amazon", "rate": 5, "note": "Amazon.com & Whole Foods Market" },
-          { "category": "travel", "rate": 5, "note": "Via Chase Travel (stacks with permanent 5% for 9% total)" },
-          { "category": "charity", "rate": 5, "note": "Feeding America® donations only" }
+          {
+            "category": "gas",
+            "rate": 5,
+            "note": "Gas stations & EV charging — excludes truck stops, marinas & residential charging"
+          },
+          {
+            "category": "transit",
+            "rate": 5,
+            "note": "Public transit — trains, buses, ferries, tolls & parking (excludes airlines, taxis, Uber/Lyft)"
+          },
+          {
+            "category": "entertainment",
+            "rate": 5,
+            "note": "Select live entertainment — concerts, sporting events, zoos & amusement parks (excludes movie theaters & casinos)"
+          },
+          {
+            "category": "charity",
+            "rate": 5,
+            "note": "United Way donations only"
+          }
         ]
       },
       "nextQuarter": null,
-      "nextQuarterExpected": "Q3 2026 — expected mid-Jun 2026",
+      "nextQuarterExpected": "Q4 2026 — expected mid-Sep 2026",
       "historical": [
+        {
+          "quarter": "Q2 2026",
+          "startDate": "2026-04-01",
+          "endDate": "2026-06-30",
+          "cap": 1500,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "amazon",
+              "rate": 5,
+              "note": "Amazon.com & Whole Foods Market"
+            },
+            {
+              "category": "travel",
+              "rate": 5,
+              "note": "Via Chase Travel (stacks with permanent 5% for 9% total)"
+            },
+            {
+              "category": "charity",
+              "rate": 5,
+              "note": "Feeding America® donations only"
+            }
+          ]
+        },
         {
           "quarter": "Q1 2026",
           "startDate": "2026-01-01",
@@ -46,9 +100,21 @@
           "cap": 1500,
           "capPeriod": "quarter",
           "categories": [
-            { "category": "dining", "rate": 5, "note": "Stacks with permanent 3% for 7x total" },
-            { "category": "charity", "rate": 5, "note": "American Heart Association donations" },
-            { "category": "travel", "rate": 5, "note": "Norwegian Cruise Line bookings" }
+            {
+              "category": "dining",
+              "rate": 5,
+              "note": "Stacks with permanent 3% for 7x total"
+            },
+            {
+              "category": "charity",
+              "rate": 5,
+              "note": "American Heart Association donations"
+            },
+            {
+              "category": "travel",
+              "rate": 5,
+              "note": "Norwegian Cruise Line bookings"
+            }
           ]
         }
       ],
@@ -67,23 +133,63 @@
       "requiresActivation": true,
       "description": "5% on rotating quarterly categories ($1,500/qtr cap). 1% on everything else. Cashback Match first year.",
       "permanent": [
-        { "category": "all", "rate": 1 }
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "currentQuarter": {
-        "quarter": "Q2 2026",
-        "startDate": "2026-04-01",
-        "endDate": "2026-06-30",
+        "quarter": "Q3 2026",
+        "startDate": "2026-07-01",
+        "endDate": "2026-09-30",
         "activationUrl": "https://www.discover.com/credit-cards/cashback-bonus/cashback-calendar.html",
         "cap": 1500,
         "capPeriod": "quarter",
         "categories": [
-          { "category": "dining", "rate": 5, "note": "Restaurants — activate ASAP, bonus is NOT retroactive" },
-          { "category": "home_improvement", "rate": 5, "note": "Home Depot, Lowe's & other home improvement stores" }
+          {
+            "category": "gas",
+            "rate": 5,
+            "note": "Gas stations & EV charging — activate ASAP, bonus is NOT retroactive. Excludes warehouse club fuel"
+          },
+          {
+            "category": "transit",
+            "rate": 5,
+            "note": "Public transportation — local commuter bus, rail & ferry (excludes car rentals, rideshare & taxis)"
+          },
+          {
+            "category": "travel",
+            "rate": 5,
+            "note": "Flights — first time ever in Discover's 5% lineup (airlines, booked directly)"
+          },
+          {
+            "category": "drugstores",
+            "rate": 5,
+            "note": "Stand-alone drugstores, pharmacies & online pharmacies"
+          }
         ]
       },
       "nextQuarter": null,
-      "nextQuarterExpected": "Q3 2026 — expected mid-Jun 2026",
+      "nextQuarterExpected": "Q4 2026 — expected mid-Sep 2026",
       "historical": [
+        {
+          "quarter": "Q2 2026",
+          "startDate": "2026-04-01",
+          "endDate": "2026-06-30",
+          "cap": 1500,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "dining",
+              "rate": 5,
+              "note": "Restaurants — activate ASAP, bonus is NOT retroactive"
+            },
+            {
+              "category": "home_improvement",
+              "rate": 5,
+              "note": "Home Depot, Lowe's & other home improvement stores"
+            }
+          ]
+        },
         {
           "quarter": "Q1 2026",
           "startDate": "2026-01-01",
@@ -91,9 +197,20 @@
           "cap": 1500,
           "capPeriod": "quarter",
           "categories": [
-            { "category": "groceries", "rate": 5, "note": "Excludes Walmart, Target, wholesale clubs" },
-            { "category": "wholesale", "rate": 5, "note": "Costco does not accept Discover" },
-            { "category": "streaming", "rate": 5 }
+            {
+              "category": "groceries",
+              "rate": 5,
+              "note": "Excludes Walmart, Target, wholesale clubs"
+            },
+            {
+              "category": "wholesale",
+              "rate": 5,
+              "note": "Costco does not accept Discover"
+            },
+            {
+              "category": "streaming",
+              "rate": 5
+            }
           ]
         }
       ],
@@ -112,23 +229,52 @@
       "requiresActivation": true,
       "description": "5% on rotating quarterly categories ($6,000/yr combined annual cap). Closed to new applicants.",
       "permanent": [
-        { "category": "all", "rate": 1 }
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "currentQuarter": {
-        "quarter": "Q2 2026",
-        "startDate": "2026-04-01",
-        "endDate": "2026-06-30",
+        "quarter": "Q3 2026",
+        "startDate": "2026-07-01",
+        "endDate": "2026-09-30",
         "activationUrl": "https://online.citi.com",
         "cap": 6000,
         "capPeriod": "year",
         "categories": [
-          { "category": "groceries", "rate": 5 },
-          { "category": "travel", "rate": 5, "note": "Via Citi Travel℠ — hotels, car rentals & attractions only (no air)" }
+          {
+            "category": "gas",
+            "rate": 5,
+            "note": "Excludes warehouse clubs, discount & convenience stores"
+          },
+          {
+            "category": "home_improvement",
+            "rate": 5,
+            "note": "Home supply warehouse, lumber, hardware, paint & garden stores"
+          }
         ]
       },
       "nextQuarter": null,
-      "nextQuarterExpected": "Q3 2026 — expected mid-Jun 2026",
+      "nextQuarterExpected": "Q4 2026 — expected mid-Sep 2026",
       "historical": [
+        {
+          "quarter": "Q2 2026",
+          "startDate": "2026-04-01",
+          "endDate": "2026-06-30",
+          "cap": 6000,
+          "capPeriod": "year",
+          "categories": [
+            {
+              "category": "groceries",
+              "rate": 5
+            },
+            {
+              "category": "travel",
+              "rate": 5,
+              "note": "Via Citi Travel℠ — hotels, car rentals & attractions only (no air)"
+            }
+          ]
+        },
         {
           "quarter": "Q1 2026",
           "startDate": "2026-01-01",
@@ -136,8 +282,14 @@
           "cap": 6000,
           "capPeriod": "year",
           "categories": [
-            { "category": "amazon", "rate": 5 },
-            { "category": "streaming", "rate": 5 }
+            {
+              "category": "amazon",
+              "rate": 5
+            },
+            {
+              "category": "streaming",
+              "rate": 5
+            }
           ]
         }
       ]
@@ -160,13 +312,15 @@
       },
       "description": "5% on 2 categories you pick each quarter ($2,000 combined cap), 2% on 1 everyday category.",
       "permanent": [
-        { "category": "all", "rate": 1 }
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "currentQuarter": {
-        "quarter": "Q2 2026",
-        "startDate": "2026-04-01",
-        "endDate": "2026-06-30",
-        "activationDeadline": "2026-06-26",
+        "quarter": "Q3 2026",
+        "startDate": "2026-07-01",
+        "endDate": "2026-09-30",
         "activationUrl": "https://www.usbank.com/credit-cards/cash-plus-credit-card.html",
         "cap": 2000,
         "capPeriod": "quarter",
@@ -184,8 +338,28 @@
         ]
       },
       "nextQuarter": null,
-      "nextQuarterExpected": "Q3 2026 — selection opens ~Jul 2026",
-      "historical": [],
+      "nextQuarterExpected": "Q4 2026 — selection opens ~Oct 2026",
+      "historical": [
+        {
+          "quarter": "Q2 2026",
+          "startDate": "2026-04-01",
+          "endDate": "2026-06-30",
+          "cap": 2000,
+          "capPeriod": "quarter",
+          "categories": [
+            {
+              "category": "user_choice",
+              "rate": 5,
+              "note": "Pick 2 of: TV/internet/streaming, dept stores, fast food, gyms, home utilities, ground transport, sporting goods, movie theaters, electronics, furniture, select clothing, cell phones"
+            },
+            {
+              "category": "user_choice",
+              "rate": 2,
+              "note": "Pick 1 of: gas, groceries, or dining (unlimited, no cap)"
+            }
+          ]
+        }
+      ],
       "applyUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
       "applyNetwork": "direct"
     },
@@ -201,17 +375,80 @@
       "requiresActivation": false,
       "description": "5% auto on your top eligible category each billing cycle (up to $500/month), 1% on everything else. No activation needed.",
       "permanent": [
-        { "category": "dining", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "gas", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "groceries", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "travel", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "transit", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "streaming", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "drugstores", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "home_improvement", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "fitness", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category" },
-        { "category": "entertainment", "rate": 5, "cap": 500, "capPeriod": "month", "note": "Auto on top category — live entertainment" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "gas",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "groceries",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "travel",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "transit",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "streaming",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "drugstores",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "home_improvement",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "fitness",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category"
+        },
+        {
+          "category": "entertainment",
+          "rate": 5,
+          "cap": 500,
+          "capPeriod": "month",
+          "note": "Auto on top category — live entertainment"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
       "applyNetwork": "direct"
@@ -241,9 +478,22 @@
           "capPeriod": "quarter",
           "note": "Pick 1: gas, online shopping, dining, travel, drugstores, or home improvement"
         },
-        { "category": "groceries", "rate": 2, "cap": 2500, "capPeriod": "quarter" },
-        { "category": "wholesale", "rate": 2, "cap": 2500, "capPeriod": "quarter" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "groceries",
+          "rate": 2,
+          "cap": 2500,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "wholesale",
+          "rate": 2,
+          "cap": 2500,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.bankofamerica.com/credit-cards/products/cash-rewards-credit-card/",
       "applyNetwork": "direct"
@@ -273,7 +523,10 @@
           "capPeriod": "quarter",
           "note": "Pick 1 of: gas, groceries, dining, travel & entertainment, utilities, electronics, home improvement, dept stores, drugstores, automotive"
         },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.huntington.com/Personal/credit-cards/voice",
       "applyNetwork": "direct"
@@ -308,7 +561,10 @@
           "rate": 3,
           "note": "Pick 1 bonus category each quarter"
         },
-        { "category": "all", "rate": 1.5 }
+        {
+          "category": "all",
+          "rate": 1.5
+        }
       ],
       "applyUrl": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
       "applyNetwork": "direct"
@@ -325,10 +581,23 @@
       "requiresActivation": false,
       "description": "1.5% base on all purchases + 3% dining & drugstores + 5% Chase Travel.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "Booked via Chase Travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "drugstores", "rate": 3 },
-        { "category": "all", "rate": 1.5 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Booked via Chase Travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "drugstores",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1.5
+        }
       ],
       "applyUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
       "applyNetwork": "direct"
@@ -345,11 +614,33 @@
       "requiresActivation": false,
       "description": "5x travel via Chase Travel, 3x dining/streaming/online groceries. Points worth 1.25¢ each via Chase Travel portal. $95 annual fee.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "5x via Chase Travel portal; 2x on other travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "streaming", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Online grocery purchases only (excl. Walmart, Target, Costco)", "excludes": ["walmart", "target", "costco"] },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "5x via Chase Travel portal; 2x on other travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "streaming",
+          "rate": 3
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "note": "Online grocery purchases only (excl. Walmart, Target, Costco)",
+          "excludes": [
+            "walmart",
+            "target",
+            "costco"
+          ]
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
       "applyNetwork": "direct"
@@ -366,9 +657,19 @@
       "requiresActivation": false,
       "description": "10x travel via Chase Travel, 3x dining & other travel. Points worth 1.5¢ via Chase Travel. $300 annual travel credit offsets fee. $550 annual fee.",
       "permanent": [
-        { "category": "travel", "rate": 10, "note": "10x via Chase Travel (1.5¢/pt = 15% effective); 3x on other travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 10,
+          "note": "10x via Chase Travel (1.5¢/pt = 15% effective); 3x on other travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
       "applyNetwork": "direct"
@@ -385,10 +686,34 @@
       "requiresActivation": false,
       "description": "3% groceries, 3% U.S. online retail, 3% gas (up to $6K/yr each, then 1%).",
       "permanent": [
-        { "category": "groceries", "rate": 3, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
-        { "category": "online_shopping", "rate": 3, "cap": 6000, "capPeriod": "year" },
-        { "category": "gas", "rate": 3, "cap": 6000, "capPeriod": "year" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year",
+          "note": "U.S. supermarkets only — excludes Costco, Target, Walmart",
+          "excludes": [
+            "costco",
+            "target",
+            "walmart"
+          ]
+        },
+        {
+          "category": "online_shopping",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "gas",
+          "rate": 3,
+          "cap": 6000,
+          "capPeriod": "year"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
       "applyNetwork": "direct"
@@ -405,11 +730,34 @@
       "requiresActivation": false,
       "description": "6% groceries (up to $6K/yr), 6% streaming, 3% transit & gas. Best grocery cashback card.",
       "permanent": [
-        { "category": "groceries", "rate": 6, "cap": 6000, "capPeriod": "year", "note": "U.S. supermarkets only — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
-        { "category": "streaming", "rate": 6 },
-        { "category": "transit", "rate": 3 },
-        { "category": "gas", "rate": 3 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "groceries",
+          "rate": 6,
+          "cap": 6000,
+          "capPeriod": "year",
+          "note": "U.S. supermarkets only — excludes Costco, Target, Walmart",
+          "excludes": [
+            "costco",
+            "target",
+            "walmart"
+          ]
+        },
+        {
+          "category": "streaming",
+          "rate": 6
+        },
+        {
+          "category": "transit",
+          "rate": 3
+        },
+        {
+          "category": "gas",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
       "applyNetwork": "direct"
@@ -426,10 +774,32 @@
       "requiresActivation": false,
       "description": "4x dining worldwide, 4x U.S. supermarkets (up to $50K/yr), 3x flights via Amex Travel. Membership Rewards points. $325 annual fee.",
       "permanent": [
-        { "category": "dining", "rate": 4, "note": "4x Membership Rewards points worldwide" },
-        { "category": "groceries", "rate": 4, "cap": 50000, "capPeriod": "year", "note": "4x at U.S. supermarkets — excludes Costco, Target, Walmart", "excludes": ["costco", "target", "walmart"] },
-        { "category": "travel", "rate": 3, "note": "3x on flights booked directly or via Amex Travel" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "dining",
+          "rate": 4,
+          "note": "4x Membership Rewards points worldwide"
+        },
+        {
+          "category": "groceries",
+          "rate": 4,
+          "cap": 50000,
+          "capPeriod": "year",
+          "note": "4x at U.S. supermarkets — excludes Costco, Target, Walmart",
+          "excludes": [
+            "costco",
+            "target",
+            "walmart"
+          ]
+        },
+        {
+          "category": "travel",
+          "rate": 3,
+          "note": "3x on flights booked directly or via Amex Travel"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
       "applyNetwork": "direct"
@@ -446,8 +816,15 @@
       "requiresActivation": false,
       "description": "5x flights & hotels via Amex Travel. Premium perks: lounge access, $200 airline credit, $200 hotel credit, Global Entry credit. $695 annual fee.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "5x on flights booked directly with airlines or via Amex Travel" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "5x on flights booked directly with airlines or via Amex Travel"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.americanexpress.com/us/credit-cards/card/platinum-card/",
       "applyNetwork": "direct"
@@ -464,12 +841,36 @@
       "requiresActivation": false,
       "description": "3% dining, groceries, streaming & entertainment (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)", "excludes": ["walmart", "target"] },
-        { "category": "streaming", "rate": 3 },
-        { "category": "entertainment", "rate": 3 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Hotels & rental cars via Capital One Travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "note": "Excludes superstores (Walmart, Target)",
+          "excludes": [
+            "walmart",
+            "target"
+          ]
+        },
+        {
+          "category": "streaming",
+          "rate": 3
+        },
+        {
+          "category": "entertainment",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/savor-dining-entertainment-cashback/",
       "applyNetwork": "direct"
@@ -486,12 +887,36 @@
       "requiresActivation": false,
       "description": "3% dining, groceries, streaming & entertainment (unlimited). 5% on hotels & rental cars via Cap One Travel. No annual fee.",
       "permanent": [
-        { "category": "travel", "rate": 5, "note": "Hotels & rental cars via Capital One Travel" },
-        { "category": "dining", "rate": 3 },
-        { "category": "groceries", "rate": 3, "note": "Excludes superstores (Walmart, Target)", "excludes": ["walmart", "target"] },
-        { "category": "streaming", "rate": 3 },
-        { "category": "entertainment", "rate": 3 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "travel",
+          "rate": 5,
+          "note": "Hotels & rental cars via Capital One Travel"
+        },
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "note": "Excludes superstores (Walmart, Target)",
+          "excludes": [
+            "walmart",
+            "target"
+          ]
+        },
+        {
+          "category": "streaming",
+          "rate": 3
+        },
+        {
+          "category": "entertainment",
+          "rate": 3
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/savorone-mealtime-rewards/",
       "applyNetwork": "direct"
@@ -508,9 +933,18 @@
       "requiresActivation": false,
       "description": "3x dining, 2x travel, 1x rent (no transaction fee via Bilt). Must make 5+ transactions/month to earn points. Bilt Points transfer to travel partners.",
       "permanent": [
-        { "category": "dining", "rate": 3 },
-        { "category": "travel", "rate": 2 },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "dining",
+          "rate": 3
+        },
+        {
+          "category": "travel",
+          "rate": 2
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://biltrewards.com/card",
       "applyNetwork": "direct"
@@ -527,8 +961,21 @@
       "requiresActivation": false,
       "description": "3% Daily Cash at Apple & select merchants (Uber, Nike, etc.) via Apple Pay. 2% on all other Apple Pay. 1% with physical card.",
       "permanent": [
-        { "category": "all", "rate": 2, "note": "2% Daily Cash via Apple Pay; 1% with physical card" },
-        { "category": "other", "rate": 3, "note": "Daily Cash via Apple Pay", "merchants": ["apple", "uber", "nike"] }
+        {
+          "category": "all",
+          "rate": 2,
+          "note": "2% Daily Cash via Apple Pay; 1% with physical card"
+        },
+        {
+          "category": "other",
+          "rate": 3,
+          "note": "Daily Cash via Apple Pay",
+          "merchants": [
+            "apple",
+            "uber",
+            "nike"
+          ]
+        }
       ],
       "applyUrl": "https://www.apple.com/apple-card/",
       "applyNetwork": "direct"
@@ -545,9 +992,22 @@
       "requiresActivation": false,
       "description": "2% on gas + restaurants (combined $1K/qtr cap), 1% on everything else.",
       "permanent": [
-        { "category": "gas", "rate": 2, "cap": 1000, "capPeriod": "quarter" },
-        { "category": "dining", "rate": 2, "cap": 1000, "capPeriod": "quarter" },
-        { "category": "all", "rate": 1 }
+        {
+          "category": "gas",
+          "rate": 2,
+          "cap": 1000,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "dining",
+          "rate": 2,
+          "cap": 1000,
+          "capPeriod": "quarter"
+        },
+        {
+          "category": "all",
+          "rate": 1
+        }
       ],
       "applyUrl": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
       "applyNetwork": "direct"
@@ -564,7 +1024,10 @@
       "requiresActivation": false,
       "description": "2% on everything (1% when you buy + 1% when you pay).",
       "permanent": [
-        { "category": "all", "rate": 2 }
+        {
+          "category": "all",
+          "rate": 2
+        }
       ],
       "applyUrl": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
       "applyNetwork": "direct"
@@ -581,7 +1044,10 @@
       "requiresActivation": false,
       "description": "Unlimited 2% cash rewards on all purchases.",
       "permanent": [
-        { "category": "all", "rate": 2 }
+        {
+          "category": "all",
+          "rate": 2
+        }
       ],
       "applyUrl": "https://creditcards.wellsfargo.com/active-cash-card",
       "applyNetwork": "direct"
@@ -598,7 +1064,10 @@
       "requiresActivation": false,
       "description": "2x miles on every purchase. Miles redeemable for travel at 1¢ each or transfer to 15+ airline/hotel partners. $95 annual fee.",
       "permanent": [
-        { "category": "all", "rate": 2 }
+        {
+          "category": "all",
+          "rate": 2
+        }
       ],
       "applyUrl": "https://www.capitalone.com/credit-cards/venture/",
       "applyNetwork": "direct"
